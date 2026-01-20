@@ -4,6 +4,8 @@ import Dock from './components/Dock'
 import Navbar from './components/Navbar'
 import MacWindow from './components/windows/MacWindow'
 import Github from './components/windows/Github'
+import Note from './components/windows/Note'
+import Resume from './components/windows/Resume'
 
 const App = () => {
   return (
@@ -11,6 +13,8 @@ const App = () => {
     <Navbar/>
      <Dock/>
     <Github/>
+    <Note/>
+    <Resume/>
    </main>
   )
 }
