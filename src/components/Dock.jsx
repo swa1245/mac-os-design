@@ -3,6 +3,7 @@ import "./dock.scss";
 
 const Dock = () => {
   return (
+    
     <footer className="dock">
       <div className="icon github">
         {/* <img src="/doc-icon/github-svgrepo-com.svg" alt="" /> */}
